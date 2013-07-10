@@ -21,7 +21,9 @@
 
 ;; for switch windows
 (when (fboundp 'windmove-default-keybindings)
-      (windmove-default-keybindings))
+      (windmove-default-keybindings 'meta))
+      
+
 
 
 
