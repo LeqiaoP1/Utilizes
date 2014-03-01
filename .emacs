@@ -21,11 +21,11 @@
 (setq c-default-style "linux"
           c-basic-offset 4)
 
-;; for git-emacs
-(add-to-list 'load-path "~/github/git-emacs/")
-(require 'git-emacs)
+;; for git // apt-get install git.el
+(require 'git)
 
-;; for cscope
+;; for cscope // apt-get install cscope-el
+(load-file "/usr/share/emacs/site-lisp/xcscope.el")
 (require 'xcscope)
 (setq cscope-do-not-update-database t)
 
