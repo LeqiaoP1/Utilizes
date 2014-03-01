@@ -11,6 +11,8 @@
   ;; If there is more than one, they won't work right.
  )
 
+(ido-mode 1)
+
 ;; for git-emacs
 (add-to-list 'load-path "~/github/git-emacs/")
 (require 'git-emacs)
